@@ -24,11 +24,15 @@ export default function Leads() {
           <CssBaseline />
           <TopBar pageTitle={'Leads'}/>
           <Sidebar currentPage={9} />
-          <main className={classes.content}>
-            <div className={classes.toolbar} />
+          <main classname={classes.content}>
+            <div classname={classes.toolbar} />
 
-            PUT YOUR CONTENT HERE -> RECOMMEND: GRID AND PAPERS MATERIAL UI
-
+            <div classname="mb-2">
+              <a href="/Leads/shopItem"><Button bsStyle="success" fill>ShopItem</Button></a><p></p>
+              <a href="/Lead/sale"><Button bsStyle="success" fill>Sale</Button></a><p></p>
+              
+            </div>
+            
           </main>
         </div>
     );
